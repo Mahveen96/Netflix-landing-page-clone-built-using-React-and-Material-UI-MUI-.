@@ -1,7 +1,7 @@
 import { AppBar, Toolbar, Button, Box, Menu, MenuItem, CssBaseline } from "@mui/material";
 import TranslateIcon from "@mui/icons-material/Translate";
 import { useState } from "react";
-import logo from "../assets/netflix-logo.svg"; // your logo
+import logo from "../assets/netflix-logo.svg"; // netflix logo
 
 function Navbar() {
   const [anchorEl, setAnchorEl] = useState(null);
